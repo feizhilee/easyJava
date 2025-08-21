@@ -14,7 +14,7 @@ public class PropertiesUtils {
     static {
         InputStream is = null;
         try {
-            is = PropertiesUtils.class.getClassLoader().getResourceAsStream("application.propertiesold");
+            is = PropertiesUtils.class.getClassLoader().getResourceAsStream("application.properties");
             props.load(is);
 
             Iterator<Object> iterator = props.keySet().iterator();
