@@ -2,7 +2,6 @@
 
 ## 📌 EasyJava 代码生成工具 README.md
 
-```markdown
 # EasyJava 代码生成工具
 
 一个基于 **Spring Boot** 的代码生成器，能够根据数据库表结构和配置文件，自动生成实体类、DAO、Service、Controller、MyBatis XML 映射文件，大幅提升开发效率。
